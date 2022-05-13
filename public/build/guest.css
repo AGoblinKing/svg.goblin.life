@@ -1,0 +1,444 @@
+/* fakecss:/workspaces/-a/src/ui/heard.esbuild-svelte-fake-css */
+.entry.svelte-pqe1v5 {
+  flex: 1;
+  background: rgba(12, 8, 240, 0.15);
+  border: 0.6vh solid rgba(0, 0, 0, 0.5);
+  font-size: 4vh;
+  user-select: none;
+  color: white;
+  text-align: center;
+  border: 0.5vh solid rgb(100, 106, 206);
+  border-radius: 1vh;
+  color: white;
+  padding: 0.5vh 5vh;
+  font-size: 3vh;
+  outline: none;
+  background-color: rgb(100, 110, 255);
+  text-align: center;
+  justify-self: center;
+  font-weight: 500;
+  align-self: center;
+  min-width: 0;
+  margin: 1vh;
+  opacity: 0.4;
+  box-shadow: 0 0 5vh rgb(100 65 150);
+  text-shadow:
+    -0.15rem -0.15rem 0 #000,
+    0.15rem -0.15rem 0 #000,
+    -0.15rem 0.15rem 0 #000,
+    0.15rem 0.15rem 0 #000;
+  transition: all cubic-bezier(0.36, -1.2, 0.59, 1.67) 250ms;
+}
+.lofi.svelte-pqe1v5 {
+  display: flex;
+  position: absolute;
+  top: 2.5vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  pointer-events: all;
+  z-index: 2;
+}
+
+/* fakecss:/workspaces/-a/src/ui/help.esbuild-svelte-fake-css */
+.full.svelte-1qmwcry {
+  width: 90vw;
+}
+.menu.svelte-1qmwcry {
+  cursor: auto;
+  display: flex;
+  opacity: 0.9;
+  flex-direction: column;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  padding-top: 12.5vh;
+  font-family: cartoon;
+  left: 0;
+  right: 0;
+  pointer-events: all;
+  bottom: 0;
+  z-index: 10;
+  background-color: black;
+  box-shadow:
+    inset 0 5vh 5rem rgba(0, 140, 255, 0.2),
+    inset 0 -5vh 5rem rgba(0, 140, 255, 0.2),
+    inset 40vw 0 5rem rgba(0, 140, 255, 0.2),
+    inset -40vw 0 5rem rgba(0, 140, 255, 0.2) !important;
+}
+.button.text.svelte-1qmwcry {
+  background-color: rgb(0, 58, 130);
+  padding: 0.5vh 2.5vh;
+  width: 100%;
+  max-width: 60vh;
+}
+.button.svelte-1qmwcry {
+  border: 0.5vh solid rgb(0, 106, 206);
+  border-radius: 1vh;
+  color: white;
+  padding: 0.5vh 5vh;
+  font-size: 3vh;
+  outline: none;
+  background-color: rgb(0, 110, 255);
+  text-align: center;
+  justify-self: center;
+  font-weight: 500;
+  align-self: center;
+  margin: 1vh;
+  box-shadow: 0 0 5vh rgb(0, 65, 150);
+  text-shadow:
+    -0.15rem -0.15rem 0 #000,
+    0.15rem -0.15rem 0 #000,
+    -0.15rem 0.15rem 0 #000,
+    0.15rem 0.15rem 0 #000;
+  transition: all cubic-bezier(0.36, -1.2, 0.59, 1.67) 250ms;
+}
+.button.svelte-1qmwcry:active {
+  background-color: rgb(0, 32, 53) !important;
+}
+.button.svelte-1qmwcry:hover {
+  background-color: rgb(0, 106, 206) !important;
+  color: rgb(0, 225, 255);
+  cursor: pointer;
+  animation: svelte-1qmwcry-beep 250ms alternate infinite;
+}
+@keyframes svelte-1qmwcry-beep {
+  0% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes svelte-1qmwcry-scroll {
+  0% {
+    background-position: 0% 0%;
+    opacity: 20%;
+    transform: scale(0.25, 5);
+  }
+  50% {
+    opacity: 30%;
+  }
+  100% {
+    background-position: -800% -800%;
+    opacity: 20%;
+    transform: scale(0.25, 5);
+  }
+}
+.span2.svelte-1qmwcry {
+  display: flex;
+  align-self: center;
+}
+.sprites.svelte-1qmwcry {
+  position: absolute;
+  background-size: 100% auto;
+  image-rendering: pixelated;
+  mix-blend-mode: hard-light;
+  background-repeat: repeat;
+  filter: hue-rotate(190deg);
+  opacity: 0.3;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  animation: svelte-1qmwcry-scroll 15s infinite linear;
+}
+.vbox.svelte-1qmwcry {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.flex.svelte-1qmwcry {
+  flex: 1;
+}
+textarea.svelte-1qmwcry {
+  -webkit-appearance: none;
+  outline: none !important;
+  font-family: monospace;
+  font-size: inherit;
+  padding: 0.4em 1rem;
+  margin: 0;
+  resize: none;
+  text-align: left;
+  font-size: 0.8rem;
+  height: 75vh;
+  box-sizing: border-box;
+  border: 1px solid rgba(19, 18, 18, 0.836);
+  background-color: rgb(190, 190, 190);
+  border-radius: 0;
+}
+
+/* fakecss:/workspaces/-a/src/ui/title.esbuild-svelte-fake-css */
+a.svelte-1uatlh0 {
+  font-size: 5vh;
+  text-decoration: none;
+}
+.title.svelte-1uatlh0 {
+  text-shadow:
+    -0.5vh -0.5vh 0 #000,
+    0.5vh -0.5vh 0 #000,
+    -0.5vh 0.5vh 0 #000,
+    0.5vh 0.5vh 0 #000;
+  font-size: 10vh;
+  text-align: center;
+  color: rgb(13, 255, 13);
+  opacity: 0.8;
+  font-family: cartoon;
+}
+offset.svelte-1uatlh0 {
+  position: relative;
+  display: block;
+  margin-top: -10vh;
+  margin-bottom: -10vh;
+}
+.full.svelte-1uatlh0 {
+  margin-top: 10vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  color: white;
+}
+@keyframes svelte-1uatlh0-color {
+  0% {
+    color: rgb(17, 168, 62);
+  }
+  100% {
+    color: rgb(0, 158, 47);
+  }
+}
+b.svelte-1uatlh0 {
+  position: relative;
+  font-size: 15vh;
+  margin-top: -10vh;
+}
+.favicon.svelte-1uatlh0 {
+  position: absolute;
+  left: 50%;
+  margin-top: 0vh;
+  transform: translate(-50%, 0);
+  height: 40vh;
+  display: flex;
+  z-index: 0;
+  width: 40vh;
+  background-size: 100% 100%;
+}
+.intro.svelte-1uatlh0 {
+  height: 47vh;
+  background: radial-gradient(circle at center, rgb(38, 0, 255) 0, rgb(0, 110, 255) 20vh, transparent 23vh);
+  animation: svelte-1uatlh0-breathe ease-in-out alternate 10s infinite;
+}
+.intro.svelte-1uatlh0:hover {
+  animation: svelte-1uatlh0-breathe ease-in-out alternate 1s infinite;
+}
+@keyframes svelte-1uatlh0-breathe {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+/* fakecss:/workspaces/-a/src/ui/loading.esbuild-svelte-fake-css */
+.full.svelte-7z92og {
+  width: 90vw;
+}
+.menu.svelte-7z92og {
+  display: flex;
+  cursor: auto;
+  opacity: 0.9;
+  flex-direction: column;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  font-family: cartoon;
+  left: 0;
+  right: 0;
+  pointer-events: all;
+  bottom: 0;
+  z-index: 10;
+  background-color: black;
+  box-shadow:
+    inset 0 5vh 5rem rgba(0, 140, 255, 0.2),
+    inset 0 -5vh 5rem rgba(0, 140, 255, 0.2),
+    inset 40vw 0 5rem rgba(0, 140, 255, 0.2),
+    inset -40vw 0 5rem rgba(0, 140, 255, 0.2) !important;
+}
+.button.text.svelte-7z92og {
+  background-color: rgb(0, 58, 130);
+  padding: 0.5vh 2.5vh;
+  width: 100%;
+  max-width: 60vh;
+}
+.button.svelte-7z92og {
+  border: 0.5vh solid rgb(0, 106, 206);
+  border-radius: 1vh;
+  color: white;
+  padding: 0.5vh 5vh;
+  font-size: 3vh;
+  outline: none;
+  background-color: rgb(0, 110, 255);
+  text-align: center;
+  justify-self: center;
+  font-weight: 500;
+  align-self: center;
+  margin: 1vh;
+  box-shadow: 0 0 5vh rgb(0, 65, 150);
+  text-shadow:
+    -0.15rem -0.15rem 0 #000,
+    0.15rem -0.15rem 0 #000,
+    -0.15rem 0.15rem 0 #000,
+    0.15rem 0.15rem 0 #000;
+  transition: all cubic-bezier(0.36, -1.2, 0.59, 1.67) 250ms;
+}
+.button.svelte-7z92og:active {
+  background-color: rgb(0, 32, 53) !important;
+}
+.button.svelte-7z92og:hover {
+  background-color: rgb(0, 106, 206) !important;
+  color: rgb(0, 225, 255);
+  cursor: pointer;
+  animation: svelte-7z92og-beep 250ms alternate infinite;
+}
+@keyframes svelte-7z92og-beep {
+  0% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes svelte-7z92og-scroll {
+  0% {
+    background-position: 0% 0%;
+    opacity: 20%;
+    transform: scale(0.25, 5);
+  }
+  50% {
+    opacity: 30%;
+  }
+  100% {
+    background-position: -800% -800%;
+    opacity: 20%;
+    transform: scale(0.25, 5);
+  }
+}
+.span2.svelte-7z92og {
+  display: flex;
+  align-self: center;
+}
+.sprites.svelte-7z92og {
+  position: absolute;
+  background-size: 100% auto;
+  image-rendering: pixelated;
+  mix-blend-mode: hard-light;
+  background-repeat: repeat;
+  filter: hue-rotate(190deg);
+  opacity: 0.3;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  animation: svelte-7z92og-scroll 15s infinite linear;
+}
+.vbox.svelte-7z92og {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.flex.svelte-7z92og {
+  flex: 1;
+}
+textarea.svelte-7z92og {
+  -webkit-appearance: none;
+  outline: none !important;
+  font-family: monospace;
+  font-size: inherit;
+  padding: 0.4em 1rem;
+  margin: 0;
+  resize: none;
+  text-align: left;
+  font-size: 0.8rem;
+  height: 40vh;
+  box-sizing: border-box;
+  border: 1px solid rgba(19, 18, 18, 0.836);
+  background-color: rgb(190, 190, 190);
+  border-radius: 0;
+}
+
+/* fakecss:/workspaces/-a/src/ui/text.esbuild-svelte-fake-css */
+.entry.svelte-kqsr2i {
+  cursor: auto;
+  flex: 1;
+  background: rgba(12, 8, 240, 0.15);
+  border: 0.6vh solid rgba(0, 0, 0, 0.5);
+  font-size: 4vh;
+  user-select: none;
+  color: white;
+  text-align: center;
+  border: 0.5vh solid rgb(0, 106, 206);
+  border-radius: 1vh;
+  color: white;
+  padding: 0.5vh 5vh;
+  font-size: 3vh;
+  outline: none;
+  background-color: rgb(0, 110, 255);
+  text-align: center;
+  justify-self: center;
+  font-weight: 500;
+  align-self: center;
+  margin: 1vh;
+  opacity: 0.6;
+  box-shadow: 0 0 5vh rgb(0 65 150);
+  text-shadow:
+    -0.15rem -0.15rem 0 #000,
+    0.15rem -0.15rem 0 #000,
+    -0.15rem 0.15rem 0 #000,
+    0.15rem 0.15rem 0 #000;
+  transition: all cubic-bezier(0.36, -1.2, 0.59, 1.67) 250ms;
+}
+.lofi.svelte-kqsr2i {
+  display: flex;
+  position: absolute;
+  bottom: 2.5vh;
+  width: 100%;
+  pointer-events: all;
+  z-index: 15;
+}
+
+/* fakecss:/workspaces/-a/src/template/webcam.esbuild-svelte-fake-css */
+.hidden.svelte-oofj5h {
+  display: none;
+}
+
+/* fakecss:/workspaces/-a/src/ui/netdata.esbuild-svelte-fake-css */
+.netdata.svelte-1beqevp {
+  position: absolute;
+  top: 0vh;
+  left: 1vh;
+  z-index: 15;
+  color: white;
+  font-size: 4vh;
+  cursor: pointer;
+  opacity: 0.75;
+  text-shadow:
+    -0.15rem -0.15rem 0 #000,
+    0.15rem -0.15rem 0 #000,
+    -0.15rem 0.15rem 0 #000,
+    0.15rem 0.15rem 0 #000;
+}
+
+/* fakecss:/workspaces/-a/src/ui/live.esbuild-svelte-fake-css */
+.action.svelte-1898r5o {
+  cursor: pointer;
+  top: 1vh;
+  right: 1vh;
+  position: absolute;
+  width: 3vh;
+  background-color: #444;
+  height: 3vh;
+  border-radius: 3vh;
+  border: 1vh solid #222;
+  opacity: 0.75;
+  z-index: 5;
+}
+.action.live.svelte-1898r5o {
+  background-color: red;
+}

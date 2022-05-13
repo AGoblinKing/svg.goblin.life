@@ -1,0 +1,34 @@
+/* fakecss:C:/Users/games dean/Documents/sab.goblin.life/src/game.esbuild-svelte-fake-css */
+canvas.svelte-vjrddy {
+  flex: 1;
+}
+
+/* fakecss:C:/Users/games dean/Documents/sab.goblin.life/src/editor/Editor.esbuild-svelte-fake-css */
+editor.svelte-1dwxaym.svelte-1dwxaym {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+editor.isTall.svelte-1dwxaym.svelte-1dwxaym {
+  flex-direction: column;
+}
+main.svelte-1dwxaym.svelte-1dwxaym {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+left_pane.svelte-1dwxaym.svelte-1dwxaym,
+right_pane.svelte-1dwxaym.svelte-1dwxaym {
+  width: 20vw;
+  background-color: #f0f0f0;
+}
+.isTall.svelte-1dwxaym left_pane.svelte-1dwxaym,
+.isTall.svelte-1dwxaym right_pane.svelte-1dwxaym {
+  width: auto;
+  height: 20vh;
+}
+tools.svelte-1dwxaym.svelte-1dwxaym {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+}
